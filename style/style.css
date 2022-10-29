@@ -1,0 +1,108 @@
+body {
+  background-color: #1A213E;
+  color: white;
+  text-transform: capitalize;
+}
+
+.main_heading {
+  color: #1A213E;
+}
+.form_div {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 50%;
+  margin:  50px auto !important;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0px 0px 20px 3px #3f457b;
+
+}
+.form_div label {
+  color:#1A213E;
+  font-weight: bold;
+}
+
+.form_div input {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.buttonStyle {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  text-transform: capitalize;
+  color: #1A213E;
+  font-weight: bold;
+}
+.buttonTest {
+  background-color: #1A213E;
+  color: white;
+}
+.container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.heading {
+  text-align: center;
+  font-size: 40px;
+}
+
+.carDiv {
+  background-color: #464C62;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  margin:  10px auto;
+  box-shadow: 0px 0px 20px 3px #343434d6;
+}
+.name {
+  font-weight: bold;
+}
+.price {
+  font-size: 22px;
+}
+
+.image {
+  width:250px;
+  height:250px;
+}
+
+@media (max-width: 575.98px) { 
+  .container {
+    padding: 0;
+  }
+  .form_div{
+    flex-direction: column;
+    width: 90%;
+    margin:  0 auto;
+  }
+  .image {
+    width: 130px;
+    height: 100px;
+  }
+  .form_div  {
+    width: 80%;
+  }
+}

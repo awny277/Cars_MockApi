@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style/normalize.css">
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="form_div">
+      <h1 class="main_heading">قم بأضافة سيارة</h1>
+    <label for="name">name</label>
+    <input type="text"  name="name" id="name" >
+    <label for="price">price</label>
+    <input type="number"  name="price" id="price" >
+    <label for="description">description</label>
+    <input type="text"  name="description" id="description" >
+    <label for="img">img Url</label>
+    <input type="text"  name="img" id="img" >
+    <button  onclick="sendData()" class="buttonStyle buttonTest">add new car</button>
+    </div>
+    <h2 class="heading" id="heading"></h2>
+    <!-- المنتجات  -->
+    <div class="container" id="container">
+    </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
